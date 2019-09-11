@@ -1,5 +1,5 @@
-base
-====
+centos
+======
 
 Docker image of CentOS 7 + EPEL
 
