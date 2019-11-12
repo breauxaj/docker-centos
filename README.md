@@ -1,7 +1,6 @@
-centos
-======
+# centos
 
-Docker image of CentOS 7 + EPEL
+CentOS 7 + EPEL
 
 License
 -------
