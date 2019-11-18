@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 
 RUN curl -sOL https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
   && yum -y install epel-release-latest-7.noarch.rpm \
