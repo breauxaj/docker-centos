@@ -1,6 +1,6 @@
 # centos
 
-CentOS 7 + EPEL
+CentOS 8 + EPEL
 
 License
 -------
