@@ -1,9 +1,7 @@
-FROM centos:7
+FROM centos:latest
 
-RUN curl -sOL https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
-  && yum -y install epel-release-latest-7.noarch.rpm \
-  && yum -y install deltarpm \
-  && yum history sync \
+RUN curl -sOL https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm \
+  && yum -y install epel-release-latest-8.noarch.rpm \
   && yum -y -q update \
   && yum clean all \
   && rm -rf /var/cache/* \
