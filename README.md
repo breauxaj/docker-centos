@@ -12,5 +12,6 @@ breauxaj AT gmail DOT com
 
 ---
 
-- [![Docker Pulls](https://img.shields.io/docker/pulls/breauxaj/centos.svg)](https://hub.docker.com/r/breauxaj/centos)
-- [![Docker Builds](https://img.shields.io/docker/cloud/build/breauxaj/centos.svg)](https://hub.docker.com/r/breauxaj/centos)
+[![Docker Pulls](https://img.shields.io/docker/pulls/breauxaj/centos.svg)](https://hub.docker.com/r/breauxaj/centos)
+[![Docker Build](https://img.shields.io/docker/cloud/build/breauxaj/centos.svg)](https://hub.docker.com/r/breauxaj/centos)
+[![Docker Automated](https://img.shields.io/docker/cloud/automated/breauxaj/centos.svg)](https://hub.docker.com/r/breauxaj/centos)
