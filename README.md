@@ -9,3 +9,7 @@ GPL3
 Contact
 -------
 breauxaj AT gmail DOT com
+
+---
+
+- [![Docker Pulls](https://img.shields.io/docker/pulls/breauxaj/centos.svg)](https://hub.docker.com/r/breauxaj/centos)
