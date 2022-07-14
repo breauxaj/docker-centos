@@ -1,9 +1,8 @@
 FROM centos:latest
 
-RUN yum -y install epel-release \
-  && yum -y -q update \
-  && yum clean all \
-  && rm -rf /var/cache/* \
+RUN dnf install centos-release-stream \ 
+  && dnf swap centos-{linux,stream}-repos \
+  && dnf distro-sync \
   && cat /dev/null > ~/.bash_history \
   && history -c
 
