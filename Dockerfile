@@ -1,7 +1,6 @@
 FROM centos:latest
 
-RUN curl -sOL https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm \
-  && yum -y install epel-release-latest-8.noarch.rpm \
+RUN yum -y install epel-release \
   && yum -y -q update \
   && yum clean all \
   && rm -rf /var/cache/* \
