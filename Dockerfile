@@ -1,7 +1,6 @@
 FROM centos:latest
 
-RUN dnf install centos-release-stream \ 
-  && dnf swap centos-{linux,stream}-repos \
+RUN dnf --disablerepo '*' --enablerepo=extras swap centos-linux-repos centos-stream-repos \
   && dnf distro-sync \
   && cat /dev/null > ~/.bash_history \
   && history -c
