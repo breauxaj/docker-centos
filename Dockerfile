@@ -1,7 +1,9 @@
 FROM centos:latest
 
 RUN dnf -y --disablerepo '*' --enablerepo=extras swap centos-linux-repos centos-stream-repos \
-  && dnf distro-sync \
+  && dnf -y config-manager --set-enabled powertools \
+  && dnf -y install epel-release \
+  && dnf -y distro-sync \
   && cat /dev/null > ~/.bash_history \
   && history -c
 
